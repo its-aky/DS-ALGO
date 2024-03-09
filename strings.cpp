@@ -15,5 +15,8 @@
 //The for loop again starts from i=0 for each recursive call, So a hash DS will be needed to keep track of chosen indexes
 //So two DS are required as parameter to recursive function call ,one for storing generated string and one for hashing
 //https://www.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1
+//Similar problems:
+//https://leetcode.com/problems/permutations/submissions/    (based on arrays)
+
 
 
