@@ -10,3 +10,10 @@
 //https://www.geeksforgeeks.org/problems/longest-palindrome-in-a-string/0
 
 
+//Generating all permutations of a string(not array) and also using set to handle duplicate characters in the string
+//Logic: Used for loop + recursion technique for this kind of problems where for each position n! ways are possible
+//The for loop again starts from i=0 for each recursive call, So a hash DS will be needed to keep track of chosen indexes
+//So two DS are required as parameter to recursive function call ,one for storing generated string and one for hashing
+//https://www.geeksforgeeks.org/problems/permutations-of-a-given-string2041/1
+
+
