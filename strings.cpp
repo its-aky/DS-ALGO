@@ -20,3 +20,15 @@
 
 
 
+
+
+
+
+
+//important concepts:
+
+//  #1   Checking if one string contains another like problems can be solved easily using SLIDING WINDOW + HASH MAP 
+
+
+
+
