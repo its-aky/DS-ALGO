@@ -29,6 +29,26 @@
 
 //  #1   Checking if one string contains another like problems can be solved easily using SLIDING WINDOW + HASH MAP 
 
+//  #2   Some DP problems can be just solved by slight variation of LCS  (https://www.geeksforgeeks.org/problems/longest-repeating-subsequence2004/1) 
+
+//  #3   LCS code:(without initialization of dp matrix)
+// for(int i=1;i<=n;i++){
+		        
+// 		        for(int j=1;j<=n;j++){
+		            
+// 		            if(str[i-1]==str[j-1]){
+// 		                dp[i][j]=1+dp[i-1][j-1];
+// 		            }    
+		            
+// 		            else{
+// 		                dp[i][j]=max(dp[i][j-1],dp[i-1][j]);
+// 		            }
+// 		        }
+// 		    }
+// 		    return dp[n][n];
+
+
+
 
 
 
