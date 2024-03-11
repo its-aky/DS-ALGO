@@ -19,3 +19,19 @@ class Solution:
         largest_number = "".join(arr)
         return largest_number
 ```
+
+### Using Lambda function (in custom comparator) in C++
+https://leetcode.com/problems/custom-sort-string/description/?envType=daily-question&envId=2024-03-11
+
+## Code
+
+``` js
+// [] is used for capturing external variables
+// () for passing the parameters
+// -> is used for declaring the return type
+// start with auto keyword
+auto comp=[&mp](char &ch1,char &ch2)->bool{
+            return mp[ch1]<mp[ch2];
+        };
+```
+
