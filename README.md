@@ -35,3 +35,23 @@ auto comp=[&mp](char &ch1,char &ch2)->bool{
         };
 ```
 
+### Reversing a Linked List
+
+## Code
+
+``` js
+ListNode* reverse(ListNode *head)
+	{
+		ListNode *prev = NULL;
+		ListNode *curr = head;
+		while (curr)
+		{
+			ListNode *temp = curr->next;
+			curr->next = prev;
+			prev = curr;
+			curr = temp;
+		}
+		return prev;
+	}
+```
+
